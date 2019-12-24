@@ -1,5 +1,6 @@
 # S.M.A.R.T-R
 S.M.A.R.T'R offers the possibility to display all SMART values from any Server, PC or NAS in a simple, clear and fast way!
+#### The constant querying of SMART states of hard disks on NAS systems and servers annoyed me a bit in the long run. Therefore I wrote a small script which is able to query all storage media automatically after calling them and display them sorted in different messages. Of course you can also automate SMARTR e.g. with a cronjob and output a given file, which you put on a web server, with a new job the old evaluation is deleted and replaced by a new one, but you could also adapt this with a simple PHP script to put the data sorted by date and time into a database.
 
 ### Install with CURL
     su
