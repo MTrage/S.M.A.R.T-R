@@ -18,6 +18,7 @@ S.M.A.R.T'R offers the possibility to display all SMART values from any Server, 
     su
     wget https://raw.githubusercontent.com/MTrage/S.M.A.R.T-R/master/usr/local/bin/smart-r.sh
     cd /usr/local/bin/
+    cp smart-r.sh smart-r
     rm smart-r.sh
     chmod 755 smart-r
     exit
