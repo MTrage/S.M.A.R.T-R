@@ -14,16 +14,13 @@ S.M.A.R.T'R offers the possibility to display all SMART values from any Server, 
     exit
 
 ### Short output of the values
-#### You should have ROOT rights, or at least be a SUDO
     sudo smart-r -s or --short
     
 ### Path and name for output file
-#### You should have ROOT rights, or at least be a SUDO
-    sudo smart-r -f or --file & /PATH/OUTPUT_FILE_NAME
+    sudo smart-r -f or --file & /PATH/OUTPUT_FILE_NAME
     
 ### Without a suffix, all information is displayed
-#### You should have ROOT rights, or at least be a SUDO
-    sudo smart-r
+    sudo smart-r
 
 ## The following programs are used by S.M.A.R.T'R to create enjoyment.°)
 - [x] awk
