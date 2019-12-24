@@ -9,13 +9,17 @@ S.M.A.R.T'R offers the possibility to display all SMART values from any Server, 
 ### Install with CURL
     su
     curl -fsSL https://raw.githubusercontent.com/MTrage/S.M.A.R.T-R/master/usr/local/bin/smart-r.sh > /usr/local/bin/smart-r
+    cp smart-r.sh smart-r
+    
     chmod 755 /usr/local/bin/smart-r
     exit
 
 ### Install with WGET
     su
-    wget https://raw.githubusercontent.com/MTrage/S.M.A.R.T-R/master/usr/local/bin/smart-r.sh > /usr/local/bin/smart-r
-    chmod 755 /usr/local/bin/smart-r
+    wget https://raw.githubusercontent.com/MTrage/S.M.A.R.T-R/master/usr/local/bin/smart-r.sh
+    cd /usr/local/bin/
+    rm smart-r.sh
+    chmod 755 smart-r
     exit
 
 ### Short output of the values
