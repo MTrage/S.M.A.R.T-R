@@ -47,7 +47,10 @@ S.M.A.R.T'R offers the possibility to display all SMART values from any Server, 
 - [x] cat
 
 ## SUDO / ROOT permission
-Some backup solutions based on freeBSD, such as FreeNAS (TrueNAS), often require elevated privileges to run smarter. To do this, the following must be entered in "/usr/local/etc/sudoers" for the root user:
+Some backup solutions based on freeBSD, such as FreeNAS (TrueNAS), often require elevated privileges to run smarter. To do this, the following must be entered in "/usr/local/etc/sudoers" for the root user.
+
+    nano /usr/local/etc/sudoers
+Insert the following instruction
 
     root ALL=(ALL) ALL
     
